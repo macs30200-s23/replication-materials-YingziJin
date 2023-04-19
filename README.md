@@ -36,7 +36,8 @@ absolute_intensity: absolute value of compound
 engage_binary: 0 if engagement is 0, else 1
 
 Initial Finding:
-[table](/EDA/random_logit_results)
+
+[table](EDA/random_logit_results.png)
 I created a binary logistic regression model to predict engage_binary using absolute_intensity as the independent variable and followersCount as the confounder. The results indicate that there is a significant positive relationship between absolute_intensity and engage_binary, with a coefficient of 0.2135 (p-value=0.026). The intercept coefficient is 0.5246, and the coefficient for the confounder (followersCount) is 7.951e-06 (p-value=0.010).
 
 Based on these findings, there is evidence to support a positive relationship between emotional intensity in social media content (as measured by the variable absolute_intensity) and information engagement (as measured by the binary outcome variable engage_binary). This means that as emotional intensity in social media content increases, there is a corresponding increase in the likelihood of information engagement.
