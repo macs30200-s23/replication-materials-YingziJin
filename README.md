@@ -40,20 +40,20 @@ Linear regression models are created to examine the relationship between absolut
 
 ## Findings
 
-<img src="table2.png">
+<img src="/analysis/table2.png">
 
 Table 2 shows that the absolute intensity of positive emotions in tweets across all topics has a strong significant effect on engagement. The positive coefficients (0.5049, 0.6156, 0.9026) indicate that tweets with more positive emotions are more likely to be engaged. However, no significant effect is observed in the case of negative emotions. 
 
-<img src="table3.png">
+<img src="/analysis/table3.png">
 
 In Table 3, the coefficients of absolute intensity show that the absolute intensity of positive emotions in tweets about random (0.0779) and music/movie topics (0.0561) has a positive and significant relationship with engagement. This indicates that tweets on random or music/movie topics are more likely to have higher engagement if they contain more positive emotions. However, this effect is not observed in tweets about abortion. Furthermore, the absolute intensity of negative emotions in tweets across all topics is not significantly related to engagement.
 
-<img src="fig2.png">
+<img src="/analysis/fig2.png">
 
 Figure 2 shows the distribution of compound scores over the five engagement levels for the abortion topic. When the engagement level increases, the peaks of the distribution start to become more prominent on both negative and positive sides instead of staying neutral. When engagement reaches level 4, the distribution of the compound becomes right-skewed, where the peak of the distribution is single and around medium negativity. When engagement reaches level 5, the distribution of the compound becomes slightly left-skewed, where the peak of the
 distribution is single and around low positivity. 
 
-<img src="fig3.png">
+<img src="/analysis/fig3.png">
 
 Figure 3 shows the distribution of compound scores over the five engagement levels for the music/movie topic. When the engagement level increases, the peaks of the distribution start to become prominent only on the positive sides. When engagement reaches level 4, the distribution of the compound becomes left-skewed, where the global peak of the distribution is around medium-high positivity. 
 
