@@ -4,3 +4,4 @@ matplotlib==3.7.0
 sklearn==1.2.1
 vaderSentiment==3.3.2
 snscrape==0.6.2.20230320
+statsmodels==0.13.5
