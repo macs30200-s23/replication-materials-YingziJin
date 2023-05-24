@@ -1,5 +1,3 @@
-#### Yingzi Jin
-
 The code is implemented using Python 3.10.9. To install all the required dependencies, you can run the following command in the terminal. Please make sure that the requirements.txt file is in the working repository:
 ```
 pip install -r requirements.txt
