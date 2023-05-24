@@ -3,7 +3,7 @@ RQ: what is the relationship between emotional intensity in social media content
 
 Data: 
 
-In this study, I utilize data scraped from Twitter. The data is collected using three sets of keywords: 1) abortion/miscarriage, 2) music/movie, and 3) the. Only tweets in English are scraped. To avoid any duplicates, the tweets collected with each set of keywords are mutually exclusive. Tweets collected were posted from November 2022 to the present. To minimize the impact of heated discussions around particular social issues within a short period, I scraped 2000 tweets from each month from Nov 2022. Each month is segmented into four periods, where 500 tweets are collected from each period. For each tweet, we collected the following information: the exact time the tweet was posted, the user ID who posted the tweet, the tweet content, the count of retweets, the count of likes, the count of comments, and the count of followers of the user.
+In this study, I utilize data scraped from Twitter. The data is collected using three sets of keywords: 1) abortion/miscarriage, 2) music/movie, and 3) the. Only tweets in English are scraped. To avoid any duplicates, the tweets collected with each set of keywords are mutually exclusive. To minimize the impact of heated discussions around particular social issues within a short period, I scraped 30 tweets daily from November 1, 2022 to April 17, 2023. For each tweet, I collected the following information: the exact time the tweet was posted, the user ID who posted the tweet, the tweet content, the count of retweets, the count of likes, the count of comments, and the count of followers of the user.
 
 Tweets scraped based on the three sets of keywords corresponds to three datasets: abortion, music, and random 
 
@@ -13,27 +13,18 @@ This variable is represented as the "compound" calculated using VADER package, r
 
 Codebook:
 
-Date: the exact time the tweet was posted
-
-User: the user ID who posted the tweet
-
-Tweet: the tweet content
-
-retweetCount: the count of retweets
-
-likeCount: the count of likes
-
-replyCount: the count of comments
-
-followersCount: 
-
-compound: emotional intensity with valence
-
-engagement: aggregation of retweetCount, replyCount, likeCount
-
-absolute_intensity: absolute value of compound
-
-engage_binary: 0 if engagement is 0, else 1
+| Vairable | Description |
+| --- | --- |
+| Date | the exact time the tweet was posted |
+| User | the user ID who posted the tweet |
+| Tweet | the tweet content |
+| retweetCount | the count of retweets |
+| likeCount | the count of likes |
+| replyCount | the count of comments |
+| followersCount | the count of followers of the user |
+| compound | emotional intensity with valence |
+| engagement | aggregation of retweetCount, replyCount, likeCount |
+| absolute_intensity | absolute value of compound |
 
 Initial Finding:
 
