@@ -73,4 +73,4 @@ To replicate the results, please make sure that you install all necessary packag
 
 How to cite this repository:
 
-Jin, Y. (2023). Emotional Intensity and Information Engagement on Twitter. GitHub repository. https://github.com/macs30200-s23/replication-materials-YingziJin.git
+Jin, Y. (2023). More Emotional, More Viral? The Effect of Emotional Intensity in Social Media Content on Information Engagement. GitHub repository. https://github.com/macs30200-s23/replication-materials-YingziJin.git
