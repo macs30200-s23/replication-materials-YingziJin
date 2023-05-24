@@ -5,11 +5,16 @@ The code is implemented using Python 3.10.9. To install all the required depende
 pip install -r requirements.txt
 ```
 
+## Project Title
+More Emotional, More Viral?
+The Effect of Emotional Intensity in Social Media Content on Information Engagement
+
+
 ## Research Question
 What is the relationship between emotional intensity in social media content and information engagement? And how do the valence of emotions and moral convictions moderate the relationship?
 
 ## Data
-In this study, I utilize data scraped from Twitter. The data is collected using three sets of keywords: 1) abortion/miscarriage, 2) music/movie, and 3) the. Only tweets in English are scraped. To avoid any duplicates, the tweets collected with each set of keywords are mutually exclusive. To minimize the impact of heated discussions around particular social issues within a short period, I scraped 30 tweets daily from November 1, 2022 to April 17, 2023. For each tweet, I collected the following information: the exact time the tweet was posted, the user ID who posted the tweet, the tweet content, the count of retweets, the count of likes, the count of comments, and the count of followers of the user.
+In this study, I use data scraped from Twitter. The data is collected using three sets of keywords: 1) abortion/miscarriage, 2) music/movie, and 3) the. Only tweets in English are scraped. To avoid any duplicates, the tweets collected with each set of keywords are mutually exclusive. To minimize the impact of heated discussions around particular social issues within a short period, I scrape 30 tweets daily from November 1, 2022 to April 17, 2023. For each tweet, I collect the following information: the exact time the tweet was posted, the user ID who posted the tweet, the tweet content, the count of retweets, the count of likes, the count of comments, and the count of followers of the user.
 
 Tweets scraped based on the three sets of keywords corresponds to three datasets: abortion, music, and random 
 
